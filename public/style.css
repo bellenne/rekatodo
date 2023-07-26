@@ -1,0 +1,85 @@
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+.task-preview{
+    width: 150px;
+    height: 150px;
+}
+.task-preview a img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.task-preview h1{
+    font-size: 9em;
+    /*color:gray;*/
+    opacity: .5;
+}
+.title-task{
+    flex-grow: 1;
+    margin-bottom: 22px;
+}
+.check-box input{
+    width: 30px;
+    height: 30px;
+    /*font-size: 2em;*/
+}
+.completed{
+    background: rgba(174, 255, 166, 0.29);
+}
+.accordion-body{
+    padding: 0;
+}
+.tags-list{
+    margin-left: 20px;
+}
+.btn-gr{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.edit, .task-edit{
+    color: orange;
+}
+.edit:hover, .task-edit:hover{
+    color: #da9001;
+}
+.remove, .task-remove{
+    color: #d50000;
+}
+.remove:hover, .task-remove:hover{
+    color:darkred;
+}
+.addNewTask{
+    text-decoration: none;
+    color: gray;
+    transition: .2s;
+}
+.addNewTask:hover{
+    color: black;
+}
+.add-tag{
+    text-decoration: none;
+}
+.task-btn{
+    text-decoration: none;
+    font-size: 1.6em;
+}
+.tag-remove{
+    display: none;
+    color: black;
+    text-decoration: none;
+}
+.badge:hover .tag-remove{
+    display: inline;
+}
+.task-edit-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
