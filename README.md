@@ -13,6 +13,6 @@
        DB_USERNAME=USERNAME (логин от доступа к БД)<br>
        DB_PASSWORD=PASSWORD (пароль от доступа к БД)<br>
 6. Сохраняем файл .env 
-7. Создаём символическую ссылку (на разных хостинга по разному это делается)
+7. Создаём символическую ссылку (на разных хостинга по разному это делается)<br>
    Пример Beget: ln -s yourdir/public public_html (предварительно удаяем папку publick_html)<br>
    Пример IPSMangager: ln -s yourdir/public/index.php index.php (Предварительно удаляем файл index.html/index.php)
