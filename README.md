@@ -16,3 +16,7 @@
 7. Создаём символическую ссылку (на разных хостинга по разному это делается)<br>
    Пример Beget: ln -s yourdir/public public_html (предварительно удаяем папку publick_html)<br>
    Пример IPSMangager: ln -s yourdir/public/index.php index.php (Предварительно удаляем файл index.html/index.php)
+
+8. Чтобы проект заработал так же необходимо накатить миграции БД, и установить ключ приложения, для этого, так же по ssh заходим в папку в которую склонировали репозиторий и пишем сначала php artisan key:generate после этого php artisan migrate
+
+
